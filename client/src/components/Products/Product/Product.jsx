@@ -12,7 +12,7 @@ const Product = ({ data, id }) => {
   return (
     <div className="product-card" onClick={() => navigate("/product/" + id)}>
       <div className="thumbnail">
-        <img src={"http://localhost:1337" + imageUrl} />
+        <img src={"https://boat-shop.vercel.app" + imageUrl} />
       </div>
       <div className="prod-details">
         <span className="name">{data.title}</span>
